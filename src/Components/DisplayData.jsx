@@ -4,13 +4,6 @@ import axios from 'axios';
 import './DisplayData.css';
 
 
-function ThisTrue(props){
-  return(
-    <p> True</p>
-  );
-}
-
-
 function FormSubmit(props){
   var formHasBeenSubmitted = props.submitted;
   
@@ -61,7 +54,7 @@ class DisplayData extends Component {
       axios.post('http://localhost:3002/recentlyInsertedForm', 
         {"id": this.props.formId})
           .then(res => {
-            if(this.state.submittedForm.id != res.data[0].id){
+            if(this.state.submittedForm.id !== res.data[0].id){
               this.setState({submittedForm: res.data[0], submitted: true});
             }
           })
