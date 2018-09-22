@@ -1,0 +1,29 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+
+.form-button {
+  margin-right: 10px !important;
+  background-color: #0b6955 !important;
+  color: whitesmoke !important;
+}
+
+.companies-button {
+  background-color: #06494e !important;
+  color: whitesmoke !important;
+}
+
+.header {
+  background-color: #222;
+  height: 120px;
+  padding: 10px;
+  color: white;
+}
+
+.header-title {
+  font-size: 42px;
+  color: whitesmoke;
+  margin-left: 200px;
+}

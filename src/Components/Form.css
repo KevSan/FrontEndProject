@@ -1,0 +1,14 @@
+.form-container {
+  line-height: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.display-data {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.submit-button {
+  margin-top: 12px;
+}
